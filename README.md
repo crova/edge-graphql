@@ -12,7 +12,7 @@ We can then deploy it to multiple regions with [`Fly`](https://fly.io) to cache 
 
       ```graphql
       {
-        beers(name:"punk") {
+        beers(name:"beer name") {
           name,
           abv,
           firstBrewed,
