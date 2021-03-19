@@ -26,7 +26,6 @@ We can then deploy it to multiple regions with [`Fly`](https://fly.io) to cache 
   * Create your account on [`Fly`](https://fly.io/)
   * Install [`flyctl`](https://fly.io/docs/getting-started/installing-flyctl/)
   * Create a Fly app: `flyctl apps create`
-  * Change `SIGINT` with `SIGTERM` in your `fly.toml` file. (*Needs confirmation*)
   * Change the `host` of your `config/prod.exs` to match your Fly app name. 
   * Deploy the app with `flyctl deploy`
   * You can navigate to `https://your-app.fly.dev/` and play around.
