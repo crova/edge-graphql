@@ -2,6 +2,8 @@
 This Phoenix application uses [`Absinthe`](https://github.com/absinthe-graphql/absinthe) to handle the GraphQL implementation and [`Cachex`](https://github.com/whitfin/cachex) to deal with caching. GraphQL query results are fetched from [`Punk api`](https://punkapi.com/) using [`HTTPoison`](https://github.com/edgurgel/httpoison).
 We can then deploy it to multiple regions with [`Fly`](https://fly.io) to cache queries closer to the user.
 
+You also have a [`companion article`](https://github.com/crova/edge-graphql/blob/master/companion_article.md) where we talk about the reasons you might want to something like this and some interest bits of this sample application.
+
 # To run it locally:
   * Clone the repo
   * Install dependencies with `mix deps.get`
