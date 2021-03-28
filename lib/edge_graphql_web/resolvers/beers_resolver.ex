@@ -9,7 +9,7 @@ defmodule EdgeGraphqlWeb.BeersResolver do
 
   @doc """
   Return a list of beers by name.
-  If results were cached, will serve the cached answered. Otherwise, will fetch 
+  If results were cached, will serve the cached answer. Otherwise, will fetch 
   from Punk and cache it for subsequent queries.
   """
   @spec search_beers(root(), args(), info()) :: {atom(), list()}
